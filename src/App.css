@@ -2,6 +2,8 @@
 body {
   background-image: url("http://hajdeda.com/docs/dynuploaded07-24-2018_102006_27597.jpg");
   background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
   background-size: cover;
   font-family:  'Gochi Hand', cursive;
 }
@@ -23,7 +25,7 @@ body {
   text-align: center;
   text-decoration: none;
   font-weight: bold;
-  padding: 10px;
+  padding: 5px;
   color: darkblue;
 }
 .link:hover{

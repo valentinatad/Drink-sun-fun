@@ -31,8 +31,8 @@ export const Login = () => {
     return (<><div className="login">
 
         <button className="button1" onClick={(e) => { handleClick(e); history.push('/home') }}>LogIn</button>
-        <input type="password" placeholder="Password" onInput={(e) => setPassword(e.target.value)} />
-        <input type="username" placeholder="Username" onInput={(e) => setUserName(e.target.value)} />
+        <input type="password" placeholder="Password" onInput={(e) => setPassword(e.target.value)} className="input"/>
+        <input type="username" placeholder="Username" onInput={(e) => setUserName(e.target.value)} className="input"/>
     </div>
 
 

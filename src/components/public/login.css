@@ -4,7 +4,11 @@ input {
     border-radius: 5px;
 
 }
+.input {
+    max-width: 100px;
+}
 .registerButton {
+    margin: 2px;
     height: 30px;
 }
 .button1 {
@@ -30,7 +34,7 @@ input {
     background-color:rgba(148, 197, 243, 0.685);
     margin: 0% auto;
     border-radius: 5px;
-    margin-top: 20px;
+    margin-top: 15px;
     border: 2px solid rgb(148, 197, 243);
     
 }
@@ -42,7 +46,7 @@ input {
     flex-flow: row-reverse;
     
     background-color:rgba(148, 197, 243, 0.685);
-    margin-top: 20px;
+    margin-top: 15px;
     padding: 2px;
     padding-right: 5px;
     border-top: 2px solid rgb(148, 197, 243);

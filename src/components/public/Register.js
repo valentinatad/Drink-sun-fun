@@ -16,7 +16,7 @@ export const Register = () => {
 
         e.preventDefault();
         if (name === "" || surname === "" || username === "" || password === "" || confirm === "") { setAlert("All fields are required."); return }
-        // if (email !== "/^+([-]?+)*@+([-]?+)*({2,3})+$/") { setAlert("Your e-mail adress is not valid."); return }
+        if (email !== "/^+([-]?+)*@+([-]?+)*({2,3})+$/") { setAlert("Your e-mail adress is not valid."); return }
         if (password !== confirm) { setAlert("The Confirm Password does not match."); return }
 
         postRegisterComponent(name, surname, username, password, email).then(response =>
@@ -38,6 +38,7 @@ export const Register = () => {
         <input type="password" placeholder="Password" onInput={(e) => { setPassword(e.target.value) }} />
         <input type="password" placeholder="Confirm password" onInput={(e) => { setConfirm(e.target.value) }} />
         <button onClick={(e) => { handleRegister(e) }} className="registerButton">Register</button>
+        <button onClick={()=>history.push('/')} className="registerButton">LogIn</button>
     </div>
     )
 }
