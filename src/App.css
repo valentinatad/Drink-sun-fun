@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap');
+body {
+  background-image: url("http://hajdeda.com/docs/dynuploaded07-24-2018_102006_27597.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family:  'Gochi Hand', cursive;
+}
+
+.links{
+  border: 2px solid rgb(148, 197, 243);
+  background-color:rgba(148, 197, 243, 0.685);
+  padding: 2px;
+  font-size: 1.5em;
+  margin:0;
+  display: flex;
+  justify-content: left;
+
+}
+.links:hover {
+  background-color: rgb(148, 197, 243);
+}
+.link {
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px;
+  color: darkblue;
+}
+.link:hover{
+  color: darkviolet;
+}
+
+
+
+.drinksFun {
+  color: darkblue;
+  font-size: 2em;
+  text-align: center;
+  font-weight: bolder;
+  font-style: oblique;
+}

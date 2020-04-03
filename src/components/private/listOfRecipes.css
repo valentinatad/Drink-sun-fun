@@ -1,0 +1,51 @@
+.blue {
+background-color: aliceblue;
+}
+.grey {
+    background-color: lightgray;
+}
+.listOfCoctails {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+
+}
+.coctail {
+    display:flex;
+    flex-flow: column;
+    text-align: center;
+    justify-items: center;
+    width: 330px;
+    height: 450px;
+    font-size: 0.70em;
+    margin: 20px;
+    background-color: whitesmoke;
+    padding: 10px;
+    border: 2px solid rgb(148, 197, 243);
+    border-radius: 5px;
+}
+
+
+
+.coctailImg {
+    width: 250px;
+    height: 250px;
+    margin: 0% auto;
+    border-radius: 5px;
+}
+.alert {
+
+background-color: whitesmoke;
+    border-radius: 5px;
+    margin: 0% auto;
+    width: 300px;
+    border: 2px, solid,  rgb(148, 197, 243);
+    color:blue;
+    font-weight: bolder;
+    font-size: 1em;
+    text-align: center;}
+.name {
+    font-size: 1em;
+    background-color:rgb(148, 197, 243);
+    border-radius:5px;
+}

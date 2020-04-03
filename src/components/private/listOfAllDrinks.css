@@ -1,0 +1,27 @@
+.drinkList {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    text-align: center;
+}
+.drink {
+    display:flex;
+    flex-flow: column;
+    text-align: center;
+    justify-items: center;
+    width: 230px;
+    height: 250px;
+    font-size: 0.90em;
+    margin: 20px;
+    background-color: whitesmoke;
+    padding: 10px;
+    border: 2px solid rgb(148, 197, 243);
+    border-radius: 5px;
+}
+.listImg {
+    max-width:  200px;
+    max-height: 250px;
+    margin: 0% auto;
+    border: 2px solid rgb(148, 197, 243);
+    border-radius: 5px;
+}

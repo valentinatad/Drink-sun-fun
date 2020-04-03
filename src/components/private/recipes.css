@@ -1,0 +1,19 @@
+.search
+{
+    display:flex;
+    justify-content: center;
+    background-color: rgba(148, 197, 243, 0.685);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 2px solid rgb(148, 197, 243);
+    
+}
+.search:hover {
+    background-color: rgb(148, 197, 243);
+  }
+.searchName{
+    width: 200px;
+    text-align: center;
+}
+

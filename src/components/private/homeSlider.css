@@ -1,0 +1,19 @@
+.all {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+.sliderr {
+   
+    justify-content: center;
+    max-width: 800px;
+    text-align: center;
+}
+.sliderImg {
+    max-width: 600px;
+    max-height: 350px;
+    margin: 0% auto;
+    border: 2px solid rgb(148, 197, 243);
+      
+    border-radius: 3px;
+}

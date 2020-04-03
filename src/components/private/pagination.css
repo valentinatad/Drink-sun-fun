@@ -1,0 +1,19 @@
+.pagination {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    
+}
+.page-item{
+    margin: 5px;
+    color: darkblue;
+    font-size: 1em;
+}
+.page-link {
+    text-decoration: none;
+    font-weight: bolder;
+    color: darkblue;
+    font-size: 1em;
+
+
+}

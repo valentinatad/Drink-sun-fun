@@ -1,0 +1,23 @@
+.select {
+    display:flex;
+    justify-content: center;
+    background-color: rgba(148, 197, 243, 0.685);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 2px solid rgb(148, 197, 243);
+    
+}
+.select:hover {
+    background-color: rgb(148, 197, 243);
+  }
+.selectOption {
+    margin-right: 20px;
+    height: 40px;
+}
+.selectButton {
+    max-height: 30px;
+    max-width: 100px;
+    border-radius: 5px;
+    font-size: 0.90em;
+}

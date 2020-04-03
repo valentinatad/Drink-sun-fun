@@ -1,0 +1,26 @@
+.logOut {
+    display: flex;
+    flex-flow: column;
+    width: 300px;
+    background-color: rgba(148, 197, 243, 0.685);
+    margin: 0% auto;
+    border-radius: 5px;
+    margin-top: 30px;
+    padding: 30px;
+    border: 2px solid whitesmoke;
+}
+.logOut:hover {
+    background-color: rgb(148, 197, 243);
+  }
+.thankYou {
+    background-color: whitesmoke;
+    color: darkblue;
+    text-align: center;
+    padding: 20px;
+    border: 2px solid rgb(148, 197, 243);
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+.logoutBtn {
+    height: 30px;
+}

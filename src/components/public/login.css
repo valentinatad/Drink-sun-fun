@@ -1,0 +1,68 @@
+input {
+    margin: 5px;
+    height: 35px;
+    border-radius: 5px;
+
+}
+.registerButton {
+    height: 30px;
+}
+.button1 {
+    max-height: 50px;
+    max-width: 150px;
+    border-radius: 5px;
+    font-size: 0.90em;
+    margin-right: 5px;
+}
+.linkRegister {
+    color:darkblue;
+    font-weight: bold;
+    margin-right: 5px;
+}
+.linkRegister:hover{
+    color: darkviolet;
+    
+}
+.register {
+    display: flex;
+    flex-flow: column;
+    max-width: 300px;
+    background-color:rgba(148, 197, 243, 0.685);
+    margin: 0% auto;
+    border-radius: 5px;
+    margin-top: 20px;
+    border: 2px solid rgb(148, 197, 243);
+    
+}
+.register:hover {
+    background-color: rgb(148, 197, 243);
+  }
+.login {
+    display:flex;
+    flex-flow: row-reverse;
+    
+    background-color:rgba(148, 197, 243, 0.685);
+    margin-top: 20px;
+    padding: 2px;
+    padding-right: 5px;
+    border-top: 2px solid rgb(148, 197, 243);
+    
+
+    
+}
+
+.register1 {
+    display: flex;
+    flex-flow: row-reverse;
+    background-color:rgba(148, 197, 243, 0.685);
+    padding-right: 5px;
+    font-size: 1em;
+    border-bottom: 2px solid rgb(148, 197, 243);
+}
+
+.alert1 {
+    background-color: white;
+    text-align: center;
+    border: 2px solid rgb(148, 197, 243);
+    color: red;
+}
