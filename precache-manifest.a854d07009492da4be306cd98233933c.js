@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "07d0c1b5152b4dc1cecedf1012196bcb",
+    "revision": "f4e5823520d0b24b5fd844fd49f70749",
     "url": "/Zavrsni-Projekat1/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Zavrsni-Projekat1/static/css/2.6bbb3a6b.chunk.css"
   },
   {
-    "revision": "d66a0c51b0b2468fdf00",
-    "url": "/Zavrsni-Projekat1/static/css/main.24cb0f71.chunk.css"
+    "revision": "5ff49299eca9d15673ce",
+    "url": "/Zavrsni-Projekat1/static/css/main.cd122f79.chunk.css"
   },
   {
     "revision": "8d0c67c868647f0dd9bd",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Zavrsni-Projekat1/static/js/2.a5a44b09.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d66a0c51b0b2468fdf00",
-    "url": "/Zavrsni-Projekat1/static/js/main.a9d0f5c6.chunk.js"
+    "revision": "5ff49299eca9d15673ce",
+    "url": "/Zavrsni-Projekat1/static/js/main.6b1274a0.chunk.js"
   },
   {
     "revision": "b18ec99eb65f1518bba7",
