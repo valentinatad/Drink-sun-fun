@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f4e5823520d0b24b5fd844fd49f70749",
+    "revision": "f0a1698705fe1beb6835fb5c7731f124",
     "url": "/Zavrsni-Projekat1/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Zavrsni-Projekat1/static/css/2.6bbb3a6b.chunk.css"
   },
   {
-    "revision": "5ff49299eca9d15673ce",
+    "revision": "ff5596605ea7d4fc9489",
     "url": "/Zavrsni-Projekat1/static/css/main.cd122f79.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Zavrsni-Projekat1/static/js/2.a5a44b09.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5ff49299eca9d15673ce",
-    "url": "/Zavrsni-Projekat1/static/js/main.6b1274a0.chunk.js"
+    "revision": "ff5596605ea7d4fc9489",
+    "url": "/Zavrsni-Projekat1/static/js/main.e76e8977.chunk.js"
   },
   {
     "revision": "b18ec99eb65f1518bba7",
