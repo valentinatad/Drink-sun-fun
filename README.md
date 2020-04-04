@@ -10,15 +10,15 @@ U ovom projektu postoje sledeće komponente:
 5. Recipes  - gde možete pronaći željeni recept.
 6. Logout - gde se pritiskom na dugme odjavljujete se sa sajta.
 
-Kako aplikacija izgleda  možete pogledati na:http://valentinatad.github.io/Zavrsni-Projekat1.
+Kako aplikacija izgleda  možete pogledati na: http://valentinatad.github.io/Zavrsni-Projekat1.
 
 Više informacija o načinu funkcionisanja ovog projekta pogledajte u nastavku teksta.
 
 
 Da bi ova aplikacija funkcionisala na samom pocetku morate instalirati sledece react-component:
-*react-router-dom
-*react-slick
-*react-medium-image-zoom
+1. react-router-dom
+2. react-slick
+3. react-medium-image-zoom
 
 ### App
  U komponenti **App.js** nalaze linkovi i rute do komponenti, da bi odredjene rute napravili javnim 
