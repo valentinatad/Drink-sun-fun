@@ -11,8 +11,7 @@ export const Login = () => {
     const history = useHistory();
     const [username, setUserName] = useState('');
     const [password, setPassword] = useState('');
-
-
+    
     const handleClick = () => {
          
         postUser(username, password).then(res => {
@@ -41,6 +40,7 @@ export const Login = () => {
                 <Link to="/register" className="linkRegister">
                     Register
         </Link></div>
+       
 
             <Switch>
                 <Route path="/register">

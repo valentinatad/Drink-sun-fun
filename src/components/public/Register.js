@@ -16,12 +16,12 @@ export const Register = () => {
 
         e.preventDefault();
         if (name === "" || surname === "" || username === "" || password === "" || confirm === "") { setAlert("All fields are required."); return }
-        if (email !== "/^+([-]?+)*@+([-]?+)*({2,3})+$/") { setAlert("Your e-mail adress is not valid."); return }
+        // if (email !== `/^(([^<>()\[\]\.,;:\s@\"]+(\.[^<>()\[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i`; return }
         if (password !== confirm) { setAlert("The Confirm Password does not match."); return }
 
         postRegisterComponent(name, surname, username, password, email).then(response =>
             console.log(response)).catch(error => {
-                alert("Choose diferent ussername or e-mail.");
+                setAlert("Choose diferent ussername or e-mail.");
                 return
             });
         history.push('/')
