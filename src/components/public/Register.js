@@ -19,7 +19,7 @@ export const Register = () => {
         // if (email !== `/^(([^<>()\[\]\.,;:\s@\"]+(\.[^<>()\[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i`; return }
         if (password !== confirm) { setAlert("The Confirm Password does not match."); return }
 
-        postRegisterComponent(name, surname, username, password, email).then(response =>
+        postRegisterComponent(name, surname, email, username, password ).then(response =>
             console.log(response)).catch(error => {
                 setAlert("Choose diferent ussername or e-mail.");
                 return
