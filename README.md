@@ -10,7 +10,7 @@ U ovom projektu postoje sledeće komponente:
 5. Recipes  - gde možete pronaći željeni recept.
 6. Logout - gde se pritiskom na dugme odjavljujete se sa sajta.
 
-Kako aplikacija izgleda  možete pogledati na: http://valentinatad.github.io/Drink-sun-fun.
+Kako aplikacija izgleda  možete pogledati na: http://valentinatad.github.io/Drinks-sun-fun.
 
 Više informacija o načinu funkcionisanja ovog projekta pogledajte u nastavku teksta.
 
