@@ -2,15 +2,17 @@ input {
     margin: 5px;
     height: 35px;
     border-radius: 5px;
-
 }
+
 .input {
     max-width: 100px;
 }
+
 .registerButton {
     margin: 2px;
     height: 30px;
 }
+
 .button1 {
     max-height: 50px;
     max-width: 150px;
@@ -18,47 +20,47 @@ input {
     font-size: 0.90em;
     margin-right: 5px;
 }
+
 .linkRegister {
-    color:darkblue;
+    color: darkblue;
     font-weight: bold;
     margin-right: 5px;
 }
-.linkRegister:hover{
+
+.linkRegister:hover {
     color: darkviolet;
-    
 }
+
 .register {
     display: flex;
     flex-flow: column;
     max-width: 300px;
-    background-color:rgba(148, 197, 243, 0.685);
+    background-color: rgba(148, 197, 243, 0.685);
     margin: 0% auto;
     border-radius: 5px;
     margin-top: 15px;
     border: 2px solid rgb(148, 197, 243);
-    
+    padding: 10px;
 }
+
 .register:hover {
     background-color: rgb(148, 197, 243);
-  }
+}
+
 .login {
-    display:flex;
+    display: flex;
     flex-flow: row-reverse;
-    
-    background-color:rgba(148, 197, 243, 0.685);
+    background-color: rgba(148, 197, 243, 0.685);
     margin-top: 15px;
     padding: 2px;
     padding-right: 5px;
     border-top: 2px solid rgb(148, 197, 243);
-    
-
-    
 }
 
 .register1 {
     display: flex;
     flex-flow: row-reverse;
-    background-color:rgba(148, 197, 243, 0.685);
+    background-color: rgba(148, 197, 243, 0.685);
     padding-right: 5px;
     font-size: 1em;
     border-bottom: 2px solid rgb(148, 197, 243);
