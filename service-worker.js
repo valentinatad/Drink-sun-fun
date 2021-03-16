@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Drinks-sun-fun/precache-manifest.1717785335eead46940bc18a8ace3789.js"
+  "/Drinks-sun-fun/precache-manifest.2cd2f53138298ee0d6693b70d237fb62.js"
 );
 
 self.addEventListener('message', (event) => {
